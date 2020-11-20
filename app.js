@@ -12,4 +12,7 @@ app.get("/user",(req,res)=>{
 app.get("/customer",(req,res)=>{
     res.send("customer route is running");
 });
+app.get("/student",(req,res)=>{
+    res.send("student route is proccessing...");
+});
 app.listen(5000,()=>console.log("Server is running on port 5000"));
